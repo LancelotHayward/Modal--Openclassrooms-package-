@@ -11,3 +11,6 @@ One also needs a useRef React hook call
 const ref = useRef(null)
 <Modal text="This is a modal's text." reference={ref}/>
 ```
+## Properties
+text : The text to display inside the modal.
+reference: The useRef hook.
